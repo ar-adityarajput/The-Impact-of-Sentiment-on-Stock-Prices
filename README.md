@@ -67,7 +67,7 @@ The percentage change in stock price was calculated using historical stock price
 ### Architecture
 
 The project architecture involves data collection, preprocessing, sentiment analysis, and correlation analysis. 
-![Process Architecture](path/to/process_architecture.png)
+![Process Architecture](Images/Architecture.jpg)
 
 ### Pre-processing of Text
 
