@@ -1,6 +1,4 @@
-Certainly! Here’s a detailed README file for your GitHub project based on the information provided in the dissertation.
 
----
 
 # The Impact of Sentiment on Stock Prices: A Study of Tweets About Top Companies
 
@@ -130,4 +128,3 @@ The study concludes that there is a noticeable impact of social media sentiment 
 
 ---
 
-Make sure to replace the placeholder paths with the actual paths to your images once you upload them to your repository. This README provides a comprehensive overview of your project and is structured to guide readers through each component of your research and findings.
