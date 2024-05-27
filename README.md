@@ -4,7 +4,9 @@
 
 ## Project Overview
 
-This project investigates the impact of social media sentiment, specifically tweets, on the stock prices of major companies. By analyzing the sentiment of tweets using advanced natural language processing (NLP) models, we aim to determine if there is a significant correlation between the sentiment expressed on Twitter and the fluctuations in stock prices.
+In the digital age, social media has become a powerful tool, influencing various sectors, including financial markets. This project dives deep into the world of social media sentiment analysis, focusing on how tweets about top companies like Apple, Google, Tesla, Amazon, and Microsoft can impact their stock prices. By leveraging advanced Natural Language Processing (NLP) models, this study aims to uncover the intricate relationship between public sentiment on Twitter and stock market movements.
+
+Through comprehensive data collection and meticulous analysis, we have utilized models like VADER and Fin-BERT to gauge sentiment from tweets. Our findings reveal significant correlations between tweet sentiments and stock price fluctuations, offering valuable insights for investors, analysts, and financial strategists. This project not only highlights the influence of social media on stock markets but also underscores the potential of sentiment analysis in shaping trading strategies.
 
 ## Table of Contents
 
@@ -27,8 +29,9 @@ This project investigates the impact of social media sentiment, specifically twe
 
 ## Introduction
 
-With the rise of social media platforms like Twitter, the exchange of information has accelerated, impacting various domains, including the financial markets. This project explores how sentiments expressed in tweets about top companies can influence their stock prices. The study focuses on companies such as Apple, Google, Tesla, Amazon, and Microsoft.
+With the proliferation of social media platforms, information dissemination has accelerated, making platforms like Twitter pivotal in shaping public opinion and market trends. Twitter, known for its real-time information sharing, has become a significant source of market sentiment. Investors and analysts increasingly rely on social media sentiment to make informed decisions. This project explores the impact of Twitter sentiment on the stock prices of major companies, aiming to quantify how positive or negative sentiments expressed in tweets correlate with stock price movements.
 
+By focusing on top companies such as Apple, Google, Tesla, Amazon, and Microsoft, we analyze vast amounts of tweet data to understand the sentiment dynamics. This study employs advanced NLP techniques to preprocess and analyze tweets, aiming to uncover patterns and correlations that could provide a competitive edge in stock trading.
 ## Literature Review
 
 Research has shown that social media sentiment can affect stock prices. Studies have used various methods like emotion analysis and sentiment analysis to predict stock movements. These studies highlight the potential of using social media data to gain a competitive edge in stock trading.
@@ -50,13 +53,13 @@ We utilized two primary models for sentiment analysis:
 #### VADER (Valence Aware Dictionary and sEntiment Reasoner)
 
 - **How VADER Works**: VADER is a lexicon and rule-based sentiment analysis tool specifically attuned to sentiments expressed in social media.
-- **VADER Sentiment Score Graph**: ![Graph to Show VADER Sentiment Score](Images/Graph to Show VADER Sentiment score.png)
+- **VADER Sentiment Score Graph**: ![Graph to Show VADER Sentiment Score](Images/Graph%20to%20Show%20VADER%20Sentiment%20score.png)
 
 #### Fin-BERT
 
 - **How Fin-BERT Works**: Fin-BERT is a domain-specific BERT model pre-trained on financial text for sentiment analysis.
-- **Fin-BERT Model Diagram**: ![Fin-BERT Model](Images/Finbert Model.png)
-- **Comparison with Other Models**: ![Fin-BERT Accuracy Comparison](Images/Finbert accuracy comparision.png)
+- **Fin-BERT Model Diagram**: ![Fin-BERT Model](Images/Finbert%20Model.png)
+- **Comparison with Other Models**: ![Fin-BERT Accuracy Comparison](Images/Finbert%20accuracy%20comparision.png)
 
 ### Calculating Percentage Change in Stock Price
 
@@ -101,18 +104,18 @@ Correlation graphs showing how the follower count of a company influences its st
 ### Accuracy of Sentiment Models
 
 Tables summarizing the accuracy of VADER and Fin-BERT models:
-- **VADER Accuracy**: ![VADER Sentence Explanation](Images/Vader Sentence explain.png)
-- **Fin-BERT Accuracy**: ![Fin-BERT Accuracy Comparison](Images/Finbert accuracy comparision.png)
+- **VADER Accuracy**: ![VADER Sentence Explanation](Images/Vader%20Sentence%20explain.png)
+- **Fin-BERT Accuracy**: ![Fin-BERT Accuracy Comparison](Images/Finbert%20accuracy%20comparision.png)
 
 ### Word Clouds
 
 Visual representation of the most frequently used positive and negative words in tweets for each company:
 - **Apple**: 
   - Positive: ![Apple Positive Word Cloud](Images/applepos.png)
-  - Negative: ![Apple Negative Word Cloud](Images/appleng.png)
+  - Negative: ![Apple Negative Word Cloud](Images/appleneg.png)
 - **Google**:
   - Positive: ![Google Positive Word Cloud](Images/googlepos.png)
-  - Negative: ![Google Negative Word Cloud](Images/googlneg.png)
+  - Negative: ![Google Negative Word Cloud](Images/googleneg.png)
 - **Tesla**:
   - Positive: ![Tesla Positive Word Cloud](Images/teslapos.png)
   - Negative: ![Tesla Negative Word Cloud](Images/teslaneg.png)
@@ -125,8 +128,8 @@ Visual representation of the most frequently used positive and negative words in
 
 ## Conclusion
 
-The study concludes that there is a noticeable impact of social media sentiment on stock prices. Tweets with significant engagement can influence stock prices, especially when the sentiment is highly positive or negative. The accuracy of sentiment models like VADER and Fin-BERT in predicting stock price movements indicates the potential of integrating social media analysis into trading strategies.
+The findings of this project underscore the substantial impact of social media sentiment on stock prices. Tweets with significant engagement—whether positive or negative—can influence stock prices, highlighting the power of public opinion in the digital age. Our analysis demonstrates that models like VADER and Fin-BERT are effective in predicting stock price movements based on tweet sentiment, offering a novel approach to market analysis.
 
----
+This study not only validates the influence of Twitter sentiment on stock markets but also opens up new avenues for integrating social media analysis into financial strategies. By understanding and leveraging the sentiment dynamics on social media, investors and analysts can enhance their decision-making processes, potentially leading to more informed and profitable trading strategies. As social media continues to evolve, its role in financial markets is likely to become even more pronounced, making sentiment analysis an indispensable tool for market participants.
 
-This README provides a comprehensive overview of your project and is structured to guide readers through each component of your research and findings.
+
