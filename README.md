@@ -50,13 +50,13 @@ We utilized two primary models for sentiment analysis:
 #### VADER (Valence Aware Dictionary and sEntiment Reasoner)
 
 - **How VADER Works**: VADER is a lexicon and rule-based sentiment analysis tool specifically attuned to sentiments expressed in social media.
-- **VADER Sentiment Score Graph**: ![VADER Sentiment Score](path/to/vader_sentiment_score_graph.png)
+- **VADER Sentiment Score Graph**: ![Graph to Show VADER Sentiment Score](Images/Graph to Show VADER Sentiment score.png)
 
 #### Fin-BERT
 
 - **How Fin-BERT Works**: Fin-BERT is a domain-specific BERT model pre-trained on financial text for sentiment analysis.
-- **Fin-BERT Model Diagram**: ![Fin-BERT Model Diagram](path/to/finbert_model_diagram.png)
-- **Comparison with Other Models**: ![Comparison with Other Models](path/to/comparison_models.png)
+- **Fin-BERT Model Diagram**: ![Fin-BERT Model](Images/Finbert Model.png)
+- **Comparison with Other Models**: ![Fin-BERT Accuracy Comparison](Images/Finbert accuracy comparision.png)
 
 ### Calculating Percentage Change in Stock Price
 
@@ -67,11 +67,12 @@ The percentage change in stock price was calculated using historical stock price
 ### Architecture
 
 The project architecture involves data collection, preprocessing, sentiment analysis, and correlation analysis. 
-![Process Architecture](Images/Architecture.jpg)
+![Architecture](Images/Architecture.jpg)
 
 ### Pre-processing of Text
 
 Text preprocessing included steps like tokenization, normalization, and removal of noise to prepare the data for sentiment analysis.
+![Pre-Processing](Images/Pre-Processing.png)
 
 ### Sentiment Analysis of Tweets
 
@@ -82,45 +83,45 @@ Tweets were analyzed using the VADER and Fin-BERT models to assign sentiment sco
 ### User Engagement and Price
 
 Graphs depicting the correlation between user engagement (likes, retweets) and stock price changes for each company:
-- **Apple**: ![Apple Engagement vs Price](path/to/apple_engagement_vs_price.png)
-- **Google**: ![Google Engagement vs Price](path/to/google_engagement_vs_price.png)
-- **Tesla**: ![Tesla Engagement vs Price](path/to/tesla_engagement_vs_price.png)
-- **Amazon**: ![Amazon Engagement vs Price](path/to/amazon_engagement_vs_price.png)
-- **Microsoft**: ![Microsoft Engagement vs Price](path/to/microsoft_engagement_vs_price.png)
+- **Apple**: ![Apple Total Engagement](Images/Apple_Total_Engagement.png)
+- **Google**: ![Google Total Engagement](Images/Google_Total_Engagement.png)
+- **Tesla**: ![Tesla Total Engagement](Images/Tesla_Total_Engagement.png)
+- **Amazon**: ![Amazon Total Engagement](Images/Amazon_Total_Engagement.png)
+- **Microsoft**: ![Microsoft Total Engagement](Images/Microsoft_Total_Engagement.png)
 
 ### Follower Count and Price
 
 Correlation graphs showing how the follower count of a company influences its stock price:
-- **Apple**: ![Apple Correlation](path/to/apple_correlation.png)
-- **Google**: ![Google Correlation](path/to/google_correlation.png)
-- **Tesla**: ![Tesla Correlation](path/to/tesla_correlation.png)
-- **Amazon**: ![Amazon Correlation](path/to/amazon_correlation.png)
-- **Microsoft**: ![Microsoft Correlation](path/to/microsoft_correlation.png)
+- **Apple**: ![Apple Follower Count](Images/Apple_Follower_count.png)
+- **Google**: ![Google Follower Count](Images/Google_Follower_count.png)
+- **Tesla**: ![Tesla Follower Count](Images/Tesla_Follower_count.png)
+- **Amazon**: ![Amazon Follower Count](Images/Amazon_Follower_count.png)
+- **Microsoft**: ![Microsoft Follower Count](Images/Microsoft_Follower_count.png)
 
 ### Accuracy of Sentiment Models
 
 Tables summarizing the accuracy of VADER and Fin-BERT models:
-- **VADER Accuracy**: ![VADER Accuracy](path/to/vader_accuracy.png)
-- **Fin-BERT Accuracy**: ![Fin-BERT Accuracy](path/to/finbert_accuracy.png)
+- **VADER Accuracy**: ![VADER Sentence Explanation](Images/Vader Sentence explain.png)
+- **Fin-BERT Accuracy**: ![Fin-BERT Accuracy Comparison](Images/Finbert accuracy comparision.png)
 
 ### Word Clouds
 
 Visual representation of the most frequently used positive and negative words in tweets for each company:
 - **Apple**: 
-  - Positive: ![Apple Positive Word Cloud](path/to/apple_positive_word_cloud.png)
-  - Negative: ![Apple Negative Word Cloud](path/to/apple_negative_word_cloud.png)
+  - Positive: ![Apple Positive Word Cloud](Images/applepos.png)
+  - Negative: ![Apple Negative Word Cloud](Images/appleng.png)
 - **Google**:
-  - Positive: ![Google Positive Word Cloud](path/to/google_positive_word_cloud.png)
-  - Negative: ![Google Negative Word Cloud](path/to/google_negative_word_cloud.png)
+  - Positive: ![Google Positive Word Cloud](Images/googlepos.png)
+  - Negative: ![Google Negative Word Cloud](Images/googlneg.png)
 - **Tesla**:
-  - Positive: ![Tesla Positive Word Cloud](path/to/tesla_positive_word_cloud.png)
-  - Negative: ![Tesla Negative Word Cloud](path/to/tesla_negative_word_cloud.png)
+  - Positive: ![Tesla Positive Word Cloud](Images/teslapos.png)
+  - Negative: ![Tesla Negative Word Cloud](Images/teslaneg.png)
 - **Amazon**:
-  - Positive: ![Amazon Positive Word Cloud](path/to/amazon_positive_word_cloud.png)
-  - Negative: ![Amazon Negative Word Cloud](path/to/amazon_negative_word_cloud.png)
+  - Positive: ![Amazon Positive Word Cloud](Images/amazonpos.png)
+  - Negative: ![Amazon Negative Word Cloud](Images/amazonneg.png)
 - **Microsoft**:
-  - Positive: ![Microsoft Positive Word Cloud](path/to/microsoft_positive_word_cloud.png)
-  - Negative: ![Microsoft Negative Word Cloud](path/to/microsoft_negative_word_cloud.png)
+  - Positive: ![Microsoft Positive Word Cloud](Images/microsoftpos.png)
+  - Negative: ![Microsoft Negative Word Cloud](Images/microsoftneg.png)
 
 ## Conclusion
 
@@ -128,3 +129,4 @@ The study concludes that there is a noticeable impact of social media sentiment 
 
 ---
 
+This README provides a comprehensive overview of your project and is structured to guide readers through each component of your research and findings.
