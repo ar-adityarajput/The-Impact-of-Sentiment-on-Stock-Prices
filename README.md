@@ -110,7 +110,7 @@ Correlation graphs showing how the follower count of a company influences its st
 ### Accuracy of Sentiment Models
 
 Tables summarizing the accuracy of VADER and Fin-BERT models:
-- **VADER Accuracy**: ![VADER Sentence Explanation](Images/Vader%20Sentence%20explain.png)
+- **VADER Accuracy**: ![VADER Sentence Explanation](Images/Vader%20Sentence%20explain%20.png)
 - **Fin-BERT Accuracy**: ![Fin-BERT Accuracy Comparison](Images/Finbert%20accuracy%20comparision.png)
 
 ### Word Clouds
